@@ -1,3 +1,117 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.link-menu{
+    text-decoration: none;
+    color:white;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.magren-caja-api{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.margen-general{
+    margin-top: 40px;
+
+}
+.caja-api{
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+.link-menu:hover{
+    text-decoration: none;
+    color:rgb(231, 229, 229);
+}
+.menu-fondo{
+    background-color: #593C8F;
+}
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton{
+    background-color: #593C8F;
+    color: white;
+    border-radius: 12px;
+    border:none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    animation-duration: 0.15s;
+}
+.boton:hover{
+    background-color: #4f367e;
+
+}
+.centrar-texto{
+    text-align: center;
+}
+.titulo{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.filtro{
+    background-color: #8EA6FA;
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding-top: 160px;
+    min-height: 100vh;
+}
+.color-link-api{
+    color: #593C8F;
+}
+.color-link-api:hover{
+    color: #442284;
+}
+.buscador{
+    width: 100%;
+    border-radius: 12px;
+    border: transparent;
+}
+.buscador:focus{
+
+    border: transparent;
+}
+.ancho-completo{
+    width: 100%;
+}
+.campo{
+
+    border-radius: 12px;
+    border: transparent;
+}
+.campo-nombre{
+    margin-left: 20px;
+    border-radius: 12px;
+    border: transparent;
+}
+.selector{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border-color: #593C8F;
+}
+.campo-miembro{
+    margin-left: 20px;
+    border-radius: 12px;
+    border-color: #593C8F;
+}

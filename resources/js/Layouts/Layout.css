@@ -1,0 +1,18 @@
+.link{
+    text-decoration: none;
+    color:#4f367e;
+}
+.link:hover{
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.titulo{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+

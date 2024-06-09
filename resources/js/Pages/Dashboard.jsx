@@ -1,13 +1,21 @@
-// in src/index.tsx
-import React from "react";
-import { App } from "../react-admin/App";
+import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
+import { Head } from '@inertiajs/react';
 
-const Dashboard = () => {
-    return(
-        <React.StrictMode>
-            <App />
-        </React.StrictMode>
+export default function Dashboard({ auth }) {
+    return (
+        <AuthenticatedLayout
+            user={auth.user}
+
+        >
+            <Head title="Dashboard" />
+
+            <div className="py-12">
+                <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
+                    <div className="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+                        <div className="p-6 text-gray-900">You're logged in!</div>
+                    </div>
+                </div>
+            </div>
+        </AuthenticatedLayout>
     );
 }
-
-export default Dashboard;

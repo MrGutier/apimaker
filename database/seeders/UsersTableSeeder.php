@@ -17,6 +17,7 @@ class UsersTableSeeder extends Seeder
 
         User::factory()->create([
             'name' => 'admin',
+            'type' => 'organization', // Cambiar a 'admin' para el rol de administrador
             'email' => env('ADMIN_EMAIL', 'admin@email.com'),
             'password' => env('ADMIN_PASSWORD', 'password'),
         ]);
