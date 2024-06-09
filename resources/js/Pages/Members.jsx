@@ -9,11 +9,17 @@ export default function Members({ miembros }) {
     }
 
     return (
-        <div key={miembros.id}>
-            <p>{miembros.name}</p>
+        <div key={miembros.id} className="row">
+            <div className="col-6">
+                <p>{miembros.name}</p>
+            </div>
+            <div className="col-6">
             <form onSubmit={handleSubmitDelete}>
                 <button type="submit">Eliminar</button>
             </form>
+            </div>
+            
+            
         </div>
     )
 }
